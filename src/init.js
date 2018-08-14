@@ -1,4 +1,18 @@
-// create a JavaScript object here with the following fields: firstName, lastName, jobTitle, homeOffice
+$(document).ready(function(){
+    $("#btn_firstName").click(function(){
+        $("#firstName").slideDown("slow");
+    });
 
-
-// using jQuery and the object above, display the information as the appropriate button is clicked
+    $("#btn_lastName").click(function(){
+        $("#lastName").slideDown("slow");
+    });
+    $("#btn_homeOffice").click(function(){
+        $("#homeOffice").slideDown("slow");
+    });
+    $("#btn_jobTitle").click(function(){
+        $("#jobTitle").slideDown("slow");
+    });
+    $("#btn_tellMeMore").click(function(){
+        $("#tellMeMore").slideDown("slow");
+    });
+});
