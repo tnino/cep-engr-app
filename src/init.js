@@ -1,4 +1,3 @@
-*/ page does not display properly with separates file. please see app.html for the whole file.
 $(document).ready(function(){
     $("#btn_firstName").click(function(){
         $("#firstName").slideDown("slow");
